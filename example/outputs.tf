@@ -1,5 +1,42 @@
 ##-----------------------------------------------------------------------------
-## Example Outputs
+## VPC Outputs
+##-----------------------------------------------------------------------------
+
+output "vpc_id" {
+  value       = module.vpc.id
+  description = "The ID of the VPC."
+}
+
+output "vpc_cidr" {
+  value       = module.vpc.vpc_cidr_block
+  description = "The CIDR block of the VPC."
+}
+
+##-----------------------------------------------------------------------------
+## Subnet Outputs
+##-----------------------------------------------------------------------------
+
+output "public_subnet_ids" {
+  value       = module.subnet.public_subnet_id
+  description = "IDs of the public subnets."
+}
+
+##-----------------------------------------------------------------------------
+## IAM Role Outputs
+##-----------------------------------------------------------------------------
+
+output "iam_role_arn" {
+  value       = module.iam_role.arn
+  description = "ARN of the IAM role."
+}
+
+output "iam_role_name" {
+  value       = module.iam_role.name
+  description = "Name of the IAM role."
+}
+
+##-----------------------------------------------------------------------------
+## EC2 Outputs
 ##-----------------------------------------------------------------------------
 
 output "instance_id" {

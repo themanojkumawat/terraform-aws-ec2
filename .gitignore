@@ -35,6 +35,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
-
+.terraform.lock.hcl
 # Dependency lock file
 # .terraform.lock.hcl
