@@ -2,6 +2,8 @@
 
 Terraform module to provision an EC2 instance on AWS with associated Elastic IP, EBS volume, KMS encryption, Security Group, and Key Pair.
 
+> Maintained by [themanojkumawat](https://github.com/themanojkumawat)
+
 ## Features
 
 - Creates EC2 instances (on-demand or spot)
