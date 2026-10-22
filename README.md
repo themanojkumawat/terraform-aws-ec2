@@ -120,3 +120,4 @@ See the [example](./example) directory for a complete working example.
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
